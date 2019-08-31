@@ -1,0 +1,8 @@
+.DS_Store
+Pods/
+build/
+Archive/
+xcuserdata/
+.vscode
+*.ipa
+*.xcworkspace
