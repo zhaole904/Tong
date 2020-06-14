@@ -25,5 +25,8 @@
     //  checkout from origin
 }
 
+- (void)uuu {
+    NSLog(@"-uuu");
+}
 
 @end
