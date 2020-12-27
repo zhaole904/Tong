@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468A42992598B35800C1C820 /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A42982598B35800C1C820 /* TViewController.m */; };
 		46A0E4DE231A14B600BFF138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E4DD231A14B600BFF138 /* AppDelegate.m */; };
 		46A0E4E1231A14B600BFF138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E4E0231A14B600BFF138 /* ViewController.m */; };
 		46A0E4E4231A14B600BFF138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E4E2231A14B600BFF138 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		468A42972598B35800C1C820 /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
+		468A42982598B35800C1C820 /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
 		46A0E4D9231A14B600BFF138 /* TongTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0E4DC231A14B600BFF138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46A0E4DD231A14B600BFF138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		468A42962598B33E00C1C820 /* test中文 */ = {
+			isa = PBXGroup;
+			children = (
+				468A42972598B35800C1C820 /* TViewController.h */,
+				468A42982598B35800C1C820 /* TViewController.m */,
+			);
+			path = "test中文";
+			sourceTree = "<group>";
+		};
 		46A0E4D0231A14B600BFF138 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		46A0E4DB231A14B600BFF138 /* TongTest */ = {
 			isa = PBXGroup;
 			children = (
+				468A42962598B33E00C1C820 /* test中文 */,
 				46A0E4DC231A14B600BFF138 /* AppDelegate.h */,
 				46A0E4DD231A14B600BFF138 /* AppDelegate.m */,
 				46A0E4DF231A14B600BFF138 /* ViewController.h */,
@@ -144,6 +157,7 @@
 				46A0E4E1231A14B600BFF138 /* ViewController.m in Sources */,
 				46A0E4EC231A14B700BFF138 /* main.m in Sources */,
 				46A0E4DE231A14B600BFF138 /* AppDelegate.m in Sources */,
+				468A42992598B35800C1C820 /* TViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
